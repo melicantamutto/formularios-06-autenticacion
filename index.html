@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Autenticación</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </nav>
+        <header class="intro">
+            <h1 class="intro-title">Welcome!</h1>
+            <p class="intro-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem earum beatae sed dicta, asperiores iste optio perspiciatis magni rem nesciunt ratione vel accusamus quidem quod quae pariatur. Velit, nemo alias!</p>
+        </header>
+        <form>
+            <fieldset>
+                <div class="main-container">
+                    <p class="main-input">
+                        <label for="password" class="label-input">Password</label>
+                            <input type="password" class="input-per-se" id="password" name="password" placeholder="Enter your password" maxlength="16" minlength="6" />
+                        </p>
+                        <p class="main-input">
+                            <label for="username" class="label-input">Username</label>
+                            <input type="text" class="input-per-se" id="username" name="username" placeholder="Enter your name" maxlength="20" minlength="4" />
+                        </p>
+                    </div>
+                
+                    <div class="secondary-container">
+                        <p class="secondary-input">
+                            <label for="rememberMe" class="secondary-label">Remember Me</label>
+                            <input type="checkbox" id="rememberMe" value="yes" name="rememberMe" class="secondary-input" />
+                        </p>
+                        <button class="forgot">Forgot Password</button>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit">Login</button>
+                        <button type="submit">Sing Up</button>
+                    </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
